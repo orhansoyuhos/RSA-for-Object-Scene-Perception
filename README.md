@@ -7,7 +7,7 @@ For a dataset of images, I used transfer learning to test the performance of sev
 
 The project was supervised by Dr. Stefania Bracci.
 
-## Example
+## Example: Alexnet trained on Imagenet
 - RDMs for models and features:
 ![example](https://user-images.githubusercontent.com/44211738/167296896-ce5ec294-7b7d-4586-9837-251480525473.png)
 
