@@ -6,7 +6,12 @@
 
 The project was supervised by Dr. Stefania Bracci.
 
-## Example: Alexnet trained on Imagenet
+## Example Image Set
+
+![obj_scene_ copy](https://user-images.githubusercontent.com/44211738/227697445-05e02f62-4e04-4dc8-97bb-09c6b473db77.png)
+
+## Example Feature Extraction (Alexnet trained on Imagenet)
+
 - RDMs for models and features:
 ![example](https://user-images.githubusercontent.com/44211738/167296896-ce5ec294-7b7d-4586-9837-251480525473.png)
 
