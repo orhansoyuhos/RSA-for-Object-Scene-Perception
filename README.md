@@ -1,8 +1,10 @@
 # RSA-for-Object-Scene-Perception
 
-In this project, I aimed to analyze the feature extraction capabilities of various neural networks trained on object classification (ImageNet), scene classification (Places365), and semantic segmentation (COCOpascal) tasks. I used a dataset containing object and scene images and applied transfer learning to test the feature extraction performance of these networks.
+The primary goal of this project is to determine whether images containing both objects and scenes belong to the object or scene category. To address this question, I employed various neural networks, such as ResNet and AlexNet, trained on object classification (ImageNet) or scene classification (Places365) tasks. I then fine-tuned these networks using a dataset of object and scene images to adapt their feature extraction capabilities.
 
-To evaluate the results, I employed representational similarity analysis (RSA) by extracting representational dissimilarity matrices (RDMs) for each network. The analysis revealed that the models did not adequately explain the observed patterns in the feature space. This suggests that a better set of images might be needed to control the 'object', 'scene', and 'both' conditions effectively.
+For evaluation, I used another testing dataset containing images of objects, scenes, and both conditions. I extracted features from each layer of the neural networks and assessed which model (control, scene, or object) could best explain the variance in the feature space across the different layers of the networks using representational similarity analysis (RSA). This involved extracting representational dissimilarity matrices (RDMs) for each network.
+
+However, the results were not significant, indicating that the models were unable to explain the variance in feature space effectively. This suggests that a better set of images or a different approach may be needed to improve the prediction accuracy for the 'both' condition. The findings of this analysis would provide insights into how images containing both objects and scenes are categorized by these pretrained networks when they are fine-tuned with a relevant dataset.
 
 ## Code
 
