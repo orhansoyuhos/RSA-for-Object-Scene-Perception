@@ -1,8 +1,12 @@
 # RSA-for-Object-Scene-Perception
 
-- 'Python_extractFeatures' folder is to extract features of a given image from a selected neural network trained on the object (ImageNet) or scene classification (Places365) or semantic segmentation (COCOpascal).
-- 'MATLAB_extractRDMs' folder is to extract representational dissimilarity matrices (RDMs) for RSA.
-  - Inside '/figures' folder you can find the results. According to the partial correlation, the models do not explain the observed patterns in the feature space. I probably need to collect a better set of images to control the 'object', 'scene', and 'both' conditions.
+In this project, I aimed to analyze the feature extraction capabilities of various neural networks trained on object classification (ImageNet), scene classification (Places365), and semantic segmentation (COCOpascal) tasks. I used a dataset containing object and scene images and applied transfer learning to test the feature extraction performance of these networks.
+
+To evaluate the results, I employed representational similarity analysis (RSA) by extracting representational dissimilarity matrices (RDMs) for each network. The analysis revealed that the models did not adequately explain the observed patterns in the feature space. This suggests that a better set of images might be needed to control the 'object', 'scene', and 'both' conditions effectively.
+
+## Code
+
+The project includes two main components: the 'Python_extractFeatures' folder for feature extraction from the neural networks, and the 'MATLAB_extractRDMs' folder for extracting RDMs for RSA, with the results available in the '/figures' folder.
 
 ## Example image set
 
