@@ -4,7 +4,7 @@ The primary goal of this project is to determine whether images containing both 
 
 For evaluation, I used another testing dataset containing images of objects, scenes, and both conditions. I extracted features from each layer of the neural networks and assessed which model (control, scene, or object) could best explain the variance in the feature space across the different layers of the networks using representational similarity analysis (RSA). This involved extracting representational dissimilarity matrices (RDMs) for each network.
 
-However, the results were not significant, indicating that the models were unable to explain the variance in feature space effectively. This suggests that a better set of images or a different approach may be needed to improve the prediction accuracy for the 'both' condition. The findings of this analysis would provide insights into how images containing both objects and scenes are categorized by these pretrained networks when they are fine-tuned with a relevant dataset.
+Overall, the results were not significant, indicating that the models were unable to explain the variance in feature space effectively. This suggests that a better set of images or a different approach may be needed to improve the prediction accuracy for the 'both' condition.
 
 ## Code
 
