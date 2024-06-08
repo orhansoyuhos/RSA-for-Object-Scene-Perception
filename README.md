@@ -1,10 +1,10 @@
 # RSA-for-Object-Scene-Perception
 
-The primary goal of this project is to determine whether images containing both objects and scenes belong to the object or scene category. To address this question, I employed various neural networks, such as ResNet and AlexNet, trained on object classification (ImageNet) or scene classification (Places365) tasks. I then fine-tuned these networks using a dataset of object and scene images to adapt their feature extraction capabilities.
+The primary goal of this project was to determine whether images containing both objects and scenes belong to the object or scene category. To address this question, I employed various neural networks, such as ResNet and AlexNet, initially trained on object classification (ImageNet) or scene classification (Places365) tasks. I then fine-tuned these networks using a custom dataset of object and scene images to adapt their feature extraction capabilities.
 
-For evaluation, I used another testing dataset containing images of objects, scenes, and both conditions. I extracted features from each layer of the neural networks and assessed which model (control, scene, or object) could best explain the variance in the feature space across the different layers of the networks using representational similarity analysis (RSA). This involved extracting representational dissimilarity matrices (RDMs) for each network.
+For evaluation, I utilized a separate testing dataset containing images of objects, scenes, and both conditions. I extracted features from each layer of the neural networks and assessed which model (control, scene, or object) could best explain the variance in the feature space across the different layers of the networks using representational similarity analysis (RSA). This involved extracting representational dissimilarity matrices (RDMs) for each network. For instance, the RSA results indicated that images containing both objects and scenes are more similar to scenes rather than objects in the last layers of AlexNet trained on ImageNet.
 
-Overall, the results were not significant, indicating that the models were unable to explain the variance in feature space effectively. This suggests that a better set of images or a different approach may be needed to improve the prediction accuracy for the 'both' condition.
+However, the overall results were not significant, indicating that the models were unable to effectively explain the variance in the feature space. This suggests that a better set of images or a different approach may be needed to improve the prediction accuracy for the 'both' condition.
 
 ## Code
 
