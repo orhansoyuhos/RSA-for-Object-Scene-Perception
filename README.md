@@ -23,4 +23,4 @@ The project includes two main components: the 'Python_extractFeatures' folder fo
 ![example_Alexnet(Imagenet)](https://user-images.githubusercontent.com/44211738/167297020-40a7301f-9bf6-4d9a-b97c-fc9ca1c30744.png)
 
 ## Acknowledgement
-- This project was part of my research internship in Object Vision Group at CIMeC. I would like to thank and acknowlege Dr. Stefania Bracci's supervison during my training.
+- This project was part of my research internship in the Object Vision Group at CIMeC. I would like to thank and acknowledge Dr. Stefania Bracci’s supervision during my training.
