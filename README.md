@@ -1,4 +1,4 @@
-# RSA-for-Object-Scene-Perception
+# RSA-for-object-scene-perception
 
 The primary goal of this project was to determine whether images containing both objects and scenes align more closely with the object or scene category. To address this question, I employed various neural networks — AlexNet, ResNet-50, and FCN-ResNet-50 — pre-trained on object classification (ImageNet), scene classification (Places365), or semantic segmentation (COCOpascal) tasks. I then fine-tuned these networks using a custom dataset of object and scene images to adapt their feature extraction capabilities.
 
