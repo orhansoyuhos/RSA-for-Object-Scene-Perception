@@ -28,7 +28,6 @@ The project includes two main components: the `Python_extractFeatures` folder fo
 | AlexNet | Places365 | Scene classification |
 | ResNet-50 | ImageNet | Object classification |
 | ResNet-50 | Places365 | Scene classification |
-| FCN-ResNet-50 | COCOpascal | Semantic segmentation |
 
 ## Example image set
 
